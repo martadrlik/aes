@@ -1,5 +1,6 @@
-// aes command uses Advanced Encryption Standard (AES) for decrypting
-// ciphertext or encrypting plaintext.
+// aes reads standard input, according to flag d decrypts or encrypts read
+// bytes and writes to standard output. Advanced Encryption Standard (AES) is
+// used.
 package main
 
 import (
